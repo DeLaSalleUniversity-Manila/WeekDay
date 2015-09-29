@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         try {
-            Integer month = Integer.parseInt(et_month.getText().toString());
+            month = Integer.parseInt(et_month.getText().toString());
         }
         catch (IllegalFormatException e){
             month = 0;
         }
 
         try {
-            Integer year = Integer.parseInt(et_year.getText().toString());
+             year = Integer.parseInt(et_year.getText().toString());
         }
         catch (IllegalFormatException e){
             year = 0;
